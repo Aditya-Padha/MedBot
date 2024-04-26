@@ -11,7 +11,7 @@ import Doctor
 import drug
 
 nltk.download('punkt')
-
+nltk.download('wordnet')
 
 with open('data.json', 'r') as file:
     ourData = json.load(file)
