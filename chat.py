@@ -10,6 +10,8 @@ import Hospital
 import Doctor
 import drug
 
+nltk.download('punkt')
+
 
 with open('data.json', 'r') as file:
     ourData = json.load(file)
